@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+//NAVBAR 
 const Navbar = () => {
   const links = [
     { href: '/', label: 'Home' },
