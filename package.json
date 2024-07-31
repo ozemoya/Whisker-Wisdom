@@ -1,21 +1,22 @@
 {
     "scripts": {
-      "build": "next build",
-      "start": "next start",
-      "dev": "next dev",
-      "deploy": "next build"
+        "build": "next build",
+        "start": "next start",
+        "dev": "next dev",
+        "deploy": "next build"
     },
     "dependencies": {
-      "next": "latest",
-      "react": "latest",
-      "react-dom": "latest",
-      "tailwindcss": "latest",
-      "postcss": "latest",
-      "autoprefixer": "latest"
+        "autoprefixer": "latest",
+        "next": "latest",
+        "package-name": "^0.1.0",
+        "postcss": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "tailwindcss": "latest"
     },
     "devDependencies": {
-      "tailwindcss": "latest",
-      "postcss": "latest",
-      "autoprefixer": "latest"
+        "autoprefixer": "latest",
+        "postcss": "latest",
+        "tailwindcss": "latest"
     }
-  }
+}
