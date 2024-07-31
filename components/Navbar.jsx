@@ -20,7 +20,7 @@ const Navbar = () => {
               {link.label}
             </Link>
           ))}
-          <button className="btn btn-primary ml-4">Sign Up</button>
+      
         </div>
       </div>
     </nav>
