@@ -1,9 +1,15 @@
-/** @type {import('next').NextConfig} */
+import withPlugins from 'next-compose-plugins';
+import withTM from 'next-transpile-modules';
+
+const withPlugins = require('next-compose-plugins');
+const withTM = require('next-transpile-modules')(['daisyui']);
+
 const nextConfig = {
+  reactStrictMode: true,
   images: {
     domains: ['cdn2.thecatapi.com'],
   },
-  trailingSlash: true,
+  // other configurations...
 };
 
-module.exports = nextConfig;
+export default withPlugins([withTM], nextConfig);
